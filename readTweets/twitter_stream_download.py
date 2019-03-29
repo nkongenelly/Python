@@ -51,7 +51,7 @@ class listener(StreamListener):
         #print((username,tweet))
 
         c.execute("INSERT INTO tweets (time, username, tweet) VALUES (%s,%s,%s)",
-            (time.time(), username, tweet))
+            (datetime.fromtimestamp(time.time()).strftime("%A, %B %d, %Y %I:%M:%S"),username, tweet))
 
         conn.commit()
 
