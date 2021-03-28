@@ -9,3 +9,5 @@ class QuestionForms(forms.Form):
 
     class Meta:
         fields = ["category", "level"]
+
+# class Question(forms.Form):

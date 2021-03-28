@@ -3,4 +3,20 @@
     <div>
         <h1>Showing questionf for category {{ form.category.value }} and {{ form.level.value }} level</h1>
     </div>
+    <div>
+        <ol>
+            {% for question in questions %}
+                <li>
+                    <p>{{ question.question}}</p>
+                    <input type="radio" id="answer" name="answer" value="{{ question.correct_answer }}"> {{ question.correct_answer }}
+                    <br/>
+                    {% for option in question.incorrect_answers %}
+                        <input type="radio" id="answer" name="answer" value="{{ option }}"> {{ option }}
+                        <br/>
+                    {% endfor %}
+                </li>
+            {% endfor %}
+        </ol>    
+
+    </div>
 {% endblock content %}

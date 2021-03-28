@@ -1,6 +1,7 @@
 from django.shortcuts import render, redirect
 from django.http import HttpResponse, HttpResponseRedirect
 from .forms import QuestionForms
+from .services import getQuestions
 
 categories = ["Any Category", "General Knowledge", "Science & Nature", "Science: Mathematics", "Science: Computer", "Geography", "History", "Politics", "Art", "Animals"]
 difficulty = ["Any Difficulty", "easy", "Medium", "hard"]
@@ -11,18 +12,18 @@ def home(request):
         "categories": categories,
             "difficulty": difficulty
         }
-    print("request.method = ", request.method)
     if request.method == 'POST':
         category1 = request.POST
-        print("categoriessss = ", category1)
         formValues = QuestionForms(request.POST)
-        print("formValues.is_valid() = ", formValues.is_valid())
         if formValues.is_valid():
             category = formValues.cleaned_data.get("category")
             level = formValues.cleaned_data.get("level")
+            questions = getQuestions()
             print("category = ", category)
             print("level = ", level)
-            return render(request, 'questions/questions.html', {'form': formValues}) 
+            print("formValues = ", formValues)
+            print("getQuestions1 = ", questions)
+            return render(request, 'questions/questions.html', {'form': formValues, 'questions' : questions}) 
 
     else :
         formValues = QuestionForms()
@@ -30,6 +31,8 @@ def home(request):
         #     return render(request, 'questions/home.html', {'form': formValues})
     return render(request, 'questions/home.html', {'form': formValues})
 
-def questions(request):
-    print("request.method 2= ", request.method)
-    return render(request, 'questions/questions.html')
+# def questions(request):
+#     context = {
+#         'questions' : getQuestions()
+#     }
+#     return render(request, 'questions/questions.html', context)
