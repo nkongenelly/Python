@@ -1,6 +1,31 @@
 {% extends "questions/base.html" %}
 {% block content %}
     <div>
-        <button type="button"> <a href="{% url 'questions' %}">START</a></button>
+        <div class="container-lg border border-primary p-3">
+            <form method="POST">
+                {% csrf_token %}
+                <fieldset class="form-group">
+                    <legend>Select category and difficulty level then click on start</legend>
+                    {{ form }}
+                </fieldset>
+                <!-- <div class="mb-3">
+                    <select action="/" class="form-select" aria-label="Default select example">
+                        <option selected>Select Category</option>
+                        {% for category in categories %}
+                                <option name = "category" value="{{ category }}">{{ category }}</option>
+                        {% endfor %}
+                    </select>
+                </div>
+                <div class="mb-3">
+                    <select class="form-select" aria-label="Default select example">
+                        <option selected>Select Difficulty</option>
+                        {% for level in difficulty %}
+                                <option name = "level" value="{{ level }}">{{ level }}</option>
+                        {% endfor %}
+                    </select>
+                </div class="mb-3"> -->
+                <button class="btn btn-outline-info" type="submit">START</button>
+            </form>
+        </div>
     </div>
 {% endblock content %}
