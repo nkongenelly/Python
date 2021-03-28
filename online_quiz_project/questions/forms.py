@@ -18,6 +18,6 @@ class QuestionListForms(forms.Form):
         QUESTIONS.append(question)
         formQuestion  = forms.CharField(max_length=100)
 
-    class Meta:
-        fields = ["question", "answer"]
+    # class Meta:
+    #     fields = ["question", "answer"]
 
