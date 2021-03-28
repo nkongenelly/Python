@@ -38,6 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'questions.apps.QuestionsConfig',
+    'users.apps.UsersConfig',
+    'crispy_forms',
     # 'questions',
 
 ]
@@ -123,5 +125,9 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 QUESTIONS_URL = 'questions'
+
+CRISPY_TEMPLATE_PACK = 'bootstrap4'
+
+LOGIN_REDIRECT_URL = 'home'
 
 

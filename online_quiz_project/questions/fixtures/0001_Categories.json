@@ -1,0 +1,79 @@
+[
+    {
+        "model": "questions.categories",
+        "fields": {
+            "index": "1",
+            "category": "Any Category"
+        }
+    },
+    {
+        "model": "questions.categories",
+        "fields": {
+            "index": "2",
+            "category": "General Knowledge"
+        }
+    },
+    {
+        "model": "questions.categories",
+        "fields": {
+            "index": "3",
+            "category": "Science & Nature"
+        }
+    },
+    {
+        "model": "questions.categories",
+        "fields": {
+            "index": "4",
+            "category": "Science: Mathematics"
+        }
+    },
+    {
+        "model": "questions.categories",
+        "fields": {
+            "index": "5",
+            "category": "Science"
+        }
+    },
+    {
+        "model": "questions.categories",
+        "fields": {
+            "index": "6",
+            "category": "Computer"
+        }
+    },
+    {
+        "model": "questions.categories",
+        "fields": {
+            "index": "7",
+            "category": "Geography"
+        }
+    },
+    {
+        "model": "questions.categories",
+        "fields": {
+            "index": "8",
+            "category": "History"
+        }
+    },
+    {
+        "model": "questions.categories",
+        "fields": {
+            "index": "9",
+            "category": "Politics"
+        }
+    },
+    {
+        "model": "questions.categories",
+        "fields": {
+            "index": "10",
+            "category": "Art"
+        }
+    },
+    {
+        "model": "questions.categories",
+        "fields": {
+            "index": "11",
+            "category": "Animals"
+        }
+    }
+]

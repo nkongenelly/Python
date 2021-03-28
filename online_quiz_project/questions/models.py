@@ -1,3 +1,8 @@
 from django.db import models
 
-# Create your models here.
+class Categories(models.Model):
+    index = models.IntegerField()
+    category = models.CharField(max_length=100)
+
+class Level(models.Model):
+    level = models.CharField(max_length=100)

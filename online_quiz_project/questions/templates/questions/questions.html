@@ -4,19 +4,30 @@
         <h1>Showing questionf for category {{ form.category.value }} and {{ form.level.value }} level</h1>
     </div>
     <div>
-        <ol>
-            {% for question in questions %}
-                <li>
-                    <p>{{ question.question}}</p>
-                    <input type="radio" id="answer" name="answer" value="{{ question.correct_answer }}"> {{ question.correct_answer }}
-                    <br/>
-                    {% for option in question.incorrect_answers %}
-                        <input type="radio" id="answer" name="answer" value="{{ option }}"> {{ option }}
-                        <br/>
+        <form method="POST">
+            {% csrf_token %}
+            <fieldset class="form-group">
+                <legend>Questions</legend>
+                <!-- {{ formQuestions.as_ul }} -->
+                <ol>
+                    {% for question in questions %}
+                    <input type="hidden" id="question" name="question" value="{{ question.correct_answer }}">
+                        <li>
+                            <p>{{ question.question}}</p>
+                            <input type="radio" id="answer1" name="answer1" value="{{ question.correct_answer }}"> {{ question.correct_answer }}
+                            <br/>
+                            {% for option in question.incorrect_answers %}
+                                <input type="radio" id="answer" name="answer" value="{{ option }}"> {{ option }}
+                                <br/>
+                            {% endfor %}
+                        </li>
+                        <div>
+                            <button class="btn btn-outline-info" type="submit">Submit and go to Next</button>
+                        </div>
                     {% endfor %}
-                </li>
-            {% endfor %}
-        </ol>    
+                </ol>  
+            </fieldset>
+        </form>
 
     </div>
 {% endblock content %}

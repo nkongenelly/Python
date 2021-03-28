@@ -1,0 +1,26 @@
+[
+    {
+        "model": "questions.level",
+        "fields": {
+            "questions.level": "Any Difficulty"
+        }
+    },
+    {
+        "model": "questions.level",
+        "fields": {
+            "questions.level": "Easy"
+        }
+    },
+    {
+        "model": "questions.level",
+        "fields": {
+            "questions.level": "Medium"
+        }
+    },
+    {
+        "model": "questions.level",
+        "fields": {
+            "questions.level": "Hard"
+        }
+    }
+]

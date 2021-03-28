@@ -1,4 +1,5 @@
 from django import forms
+from .services import getQuestions
 
 class QuestionForms(forms.Form):
     CATEGORIES = (("Any Category", "Any Category"),("General Knowledge", "General Knowledge"), ("Science & Nature", "Science & Nature"), ("Science: Mathematics", "Science: Mathematics"),
@@ -8,6 +9,15 @@ class QuestionForms(forms.Form):
     level = forms.ChoiceField(choices=LEVELS)
 
     class Meta:
-        fields = ["category", "level"]
+        fields = ["category", "level", "questionId", "question", "answer1", "answer"]
 
-# class Question(forms.Form):
+class QuestionListForms(forms.Form):
+    QUESTIONS = []
+    allQuestions = getQuestions()
+    for question in allQuestions:
+        QUESTIONS.append(question)
+        formQuestion  = forms.CharField(max_length=100)
+
+    class Meta:
+        fields = ["question", "answer"]
+
