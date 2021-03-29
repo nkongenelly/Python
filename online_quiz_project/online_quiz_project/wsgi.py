@@ -11,6 +11,7 @@ import os
 import dotenv
 
 from django.core.wsgi import get_wsgi_application
+from whitenoise.django import DjangoWhiteNoise
 
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'online_quiz_project.settings')
 
@@ -19,3 +20,4 @@ dotenv.load_dotenv(
 )
 
 application = get_wsgi_application()
+application = DjangoWhiteNoise(application)
