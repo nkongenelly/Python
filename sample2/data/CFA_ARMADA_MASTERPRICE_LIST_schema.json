@@ -1,0 +1,404 @@
+{
+    "type": "object",
+    "properties": {
+        "clientProductNumber": {
+            "type": "array"
+        },
+        "clientProductName": {
+            "type": "array"
+        },
+        "clientProductGroup": {
+            "type": "array"
+        },
+        "supplierProductNumber": {
+            "type": "array"
+        },
+        "supplierProductName": {
+            "type": "array"
+        },
+        "supplierName": {
+            "type": "array"
+        },
+        "supplierBrand": {
+            "type": "array"
+        },
+        "dcProductNumber": {
+            "type": "array"
+        },
+        "dcProductName": {
+            "type": "array"
+        },
+        "tempAtSupplier": {
+            "type": "array"
+        },
+        "tempAtStorage": {
+            "type": "array"
+        },
+        "tempAtStore": {
+            "type": "array"
+        },
+        "tempAtTrans": {
+            "type": "array"
+        },
+        "minTempAtSupplier": {
+            "type": "array"
+        },
+        "maxTempAtSupplier": {
+            "type": "array"
+        },
+        "minTempAtStorage": {
+            "type": "array"
+        },
+        "maxTempAtStorage": {
+            "type": "array"
+        },
+        "minTempAtStore": {
+            "type": "array"
+        },
+        "maxTempAtStore": {
+            "type": "array"
+        },
+        "minTempAtTrans": {
+            "type": "array"
+        },
+        "maxTempAtTrans": {
+            "type": "array"
+        },
+        "caseQuantity": {
+            "type": "array"
+        },
+        "itemQuantity": {
+            "type": "array"
+        },
+        "itemUom": {
+            "type": "array"
+        },
+        "palletTi": {
+            "type": "array"
+        },
+        "palletHi": {
+            "type": "array"
+        },
+        "buyerName": {
+            "type": "array"
+        },
+        "productGroupName": {
+            "type": "array"
+        },
+        "supplierNumber": {
+            "type": "array"
+        },
+        "gtin": {
+            "type": "array"
+        },
+        "upc": {
+            "type": "array"
+        },
+        "proprietary": {
+            "type": "array"
+        },
+        "grossCasePack": {
+            "type": "array"
+        },
+        "subcaseQuantity": {
+            "type": "array"
+        },
+        "caseWidth": {
+            "type": "array"
+        },
+        "caseLength": {
+            "type": "array"
+        },
+        "caseHeight": {
+            "type": "array"
+        },
+        "floorLoaded": {
+            "type": "array"
+        },
+        "pallet": {
+            "type": "array"
+        },
+        "slipSheet": {
+            "type": "array"
+        },
+        "directStoreDelivery": {
+            "type": "array"
+        },
+        "mixedLotsOnPallet": {
+            "type": "array"
+        },
+        "stockingType": {
+            "type": "array"
+        },
+        "purchaseUom": {
+            "type": "array"
+        },
+        "purchasePriceUom": {
+            "type": "array"
+        },
+        "saleUom": {
+            "type": "array"
+        },
+        "salePriceUom": {
+            "type": "array"
+        },
+        "freightUom": {
+            "type": "array"
+        },
+        "caseGrossWeight": {
+            "type": "array"
+        },
+        "caseNetWeight": {
+            "type": "array"
+        },
+        "catchWeight": {
+            "type": "array"
+        },
+        "shelfLife": {
+            "type": "array"
+        },
+        "shelfLifeToDc": {
+            "type": "array"
+        },
+        "shelfLifeToStore": {
+            "type": "array"
+        },
+        "frontOfHouse": {
+            "type": "array"
+        },
+        "backOfHouse": {
+            "type": "array"
+        },
+        "shelfLifeOpened": {
+            "type": "array"
+        },
+        "storeRecievingUom": {
+            "type": "array"
+        },
+        "orderLeadTime": {
+            "type": "array"
+        },
+        "productLeadTime": {
+            "type": "array"
+        },
+        "productSafetyStock": {
+            "type": "array"
+        },
+        "storeLandedPrice": {
+            "type": "array"
+        },
+        "warehouseTotalMarkup": {
+            "type": "array"
+        },
+        "productLaneMoq": {
+            "type": "array"
+        },
+        "productLaneMaxOq": {
+            "type": "array"
+        },
+        "productLaneOqm": {
+            "type": "array"
+        },
+        "productLaneSafetyStock": {
+            "type": "array"
+        },
+        "productLaneMoqUomCd": {
+            "type": "array"
+        },
+        "suggestedSafetyStock": {
+            "type": "array"
+        },
+        "productApprovedDate": {
+            "type": "array"
+        },
+        "breakCaseLevelUom": {
+            "type": "array"
+        },
+        "glCode": {
+            "type": "array"
+        },
+        "glCodeDescription": {
+            "type": "array"
+        },
+        "billBackItem": {
+            "type": "array"
+        },
+        "billBackAmount": {
+            "type": "array"
+        },
+        "billBackComments": {
+            "type": "array"
+        },
+        "pricedOnDateOf": {
+            "type": "array"
+        },
+        "commodityClass": {
+            "type": "array"
+        },
+        "masterClientProductNumber": {
+            "type": "array"
+        },
+        "masterClientProductName": {
+            "type": "array"
+        },
+        "contractType": {
+            "type": "array"
+        },
+        "qaStatus": {
+            "type": "array"
+        },
+        "armadaProductNumber": {
+            "type": "array"
+        },
+        "originLocationNumber": {
+            "type": "array"
+        },
+        "oriinLocationName": {
+            "type": "array"
+        },
+        "originLocationTypeCd": {
+            "type": "array"
+        },
+        "destinationLocationNumber": {
+            "type": "array"
+        },
+        "destinationLocationName": {
+            "type": "array"
+        },
+        "destinationLocationTypeCd": {
+            "type": "array"
+        },
+        "effectiveDate": {
+            "type": "array"
+        },
+        "expirationDate": {
+            "type": "array"
+        },
+        "pricePickup": {
+            "type": "array"
+        },
+        "priceBillback": {
+            "type": "array"
+        },
+        "priceSupplierfreight": {
+            "type": "array"
+        },
+        "priceDelivered": {
+            "type": "array"
+        },
+        "priceTransfer": {
+            "type": "array"
+        },
+        "priceStor": {
+            "type": "array"
+        },
+        "priceAmort": {
+            "type": "array"
+        },
+        "priceFreight": {
+            "type": "array"
+        },
+        "priceHand": {
+            "type": "array"
+        },
+        "priceAdjmu": {
+            "type": "array"
+        },
+        "priceDclanded": {
+            "type": "array"
+        },
+        "priceFob": {
+            "type": "array"
+        },
+        "pricePalletcharge": {
+            "type": "array"
+        },
+        "pricePdpalletcharge": {
+            "type": "array"
+        },
+        "pricePdstor": {
+            "type": "array"
+        },
+        "pricePdhand": {
+            "type": "array"
+        },
+        "priceAllowance": {
+            "type": "array"
+        },
+        "priceDisc": {
+            "type": "array"
+        },
+        "priceCustom1": {
+            "type": "array"
+        },
+        "priceCustom2": {
+            "type": "array"
+        },
+        "priceCustom3": {
+            "type": "array"
+        },
+        "priceCustom4": {
+            "type": "array"
+        },
+        "priceCustom5": {
+            "type": "array"
+        },
+        "priceCustom6": {
+            "type": "array"
+        },
+        "priceCustom7": {
+            "type": "array"
+        },
+        "priceCustom8": {
+            "type": "array"
+        },
+        "priceCustom9": {
+            "type": "array"
+        },
+        "priceCustom10": {
+            "type": "array"
+        },
+        "purchaseUomCd": {
+            "type": "array"
+        },
+        "purchasePriceUomCd": {
+            "type": "array"
+        },
+        "saleUomCd": {
+            "type": "array"
+        },
+        "salePriceUomCd": {
+            "type": "array"
+        },
+        "freightUomCd": {
+            "type": "array"
+        },
+        "storeReceivingUomCd": {
+            "type": "array"
+        },
+        "breakCaseLevelUomCd": {
+            "type": "array"
+        },
+        "itemUomCd": {
+            "type": "array"
+        },
+        "palletExchange": {
+            "type": "array"
+        },
+        "countryOfOrigin": {
+            "type": "array"
+        },
+        "totalItemQuantity": {
+            "type": "array"
+        },
+        "casesPerPallet": {
+            "type": "array"
+        },
+        "concept": {
+            "type": "array"
+        },
+        "countryOfOriginLabel": {
+            "type": "array"
+        }
+    }
+}

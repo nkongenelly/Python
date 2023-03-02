@@ -1,0 +1,329 @@
+{
+  "data_asset_type": null,
+  "expectation_suite_name": "test",
+  "expectations": [
+    {
+      "expectation_type": "expect_table_row_count_to_be_between",
+      "kwargs": {
+        "max_value": 3,
+        "min_value": 3,
+        "mostly": 1.0
+      },
+      "meta": {
+        "profiler_details": {
+          "metric_configuration": {
+            "domain_kwargs": {},
+            "metric_name": "table.row_count",
+            "metric_value_kwargs": null
+          },
+          "num_batches": 1
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_min_to_be_between",
+      "kwargs": {
+        "column": "Quantity",
+        "max_value": 1,
+        "min_value": 1,
+        "mostly": 1.0
+      },
+      "meta": {
+        "profiler_details": {
+          "metric_configuration": {
+            "domain_kwargs": {
+              "column": "Quantity"
+            },
+            "metric_name": "column.min",
+            "metric_value_kwargs": null
+          },
+          "num_batches": 1
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_max_to_be_between",
+      "kwargs": {
+        "column": "Quantity",
+        "max_value": 12,
+        "min_value": 12,
+        "mostly": 1.0
+      },
+      "meta": {
+        "profiler_details": {
+          "metric_configuration": {
+            "domain_kwargs": {
+              "column": "Quantity"
+            },
+            "metric_name": "column.max",
+            "metric_value_kwargs": null
+          },
+          "num_batches": 1
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_set",
+      "kwargs": {
+        "column": "AccountID",
+        "mostly": 1.0,
+        "value_set": [
+          "RE233",
+          "ABC",
+          "98DSS"
+        ]
+      },
+      "meta": {
+        "profiler_details": {
+          "metric_configuration": {
+            "domain_kwargs": {
+              "column": "AccountID"
+            },
+            "metric_name": "column.distinct_values",
+            "metric_value_kwargs": null
+          },
+          "num_batches": 1,
+          "parse_strings_as_datetimes": false
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_min_to_be_between",
+      "kwargs": {
+        "column": "Price",
+        "max_value": 2,
+        "min_value": 2,
+        "mostly": 1.0
+      },
+      "meta": {
+        "profiler_details": {
+          "metric_configuration": {
+            "domain_kwargs": {
+              "column": "Price"
+            },
+            "metric_name": "column.min",
+            "metric_value_kwargs": null
+          },
+          "num_batches": 1
+        }
+      }
+    },
+    {
+      "expectation_type": "expect_column_max_to_be_between",
+      "kwargs": {
+        "column": "Price",
+        "max_value": 33,
+        "min_value": 33,
+        "mostly": 1.0
+      },
+      "meta": {
+        "profiler_details": {
+          "metric_configuration": {
+            "domain_kwargs": {
+              "column": "Price"
+            },
+            "metric_name": "column.max",
+            "metric_value_kwargs": null
+          },
+          "num_batches": 1
+        }
+      }
+    }
+  ],
+  "ge_cloud_id": null,
+  "meta": {
+    "citations": [
+      {
+        "citation_date": "2023-03-02T15:45:19.033388Z",
+        "comment": "Created by Rule-Based Profiler with the configuration included.",
+        "profiler_config": {
+          "config_version": 1.0,
+          "name": "My Profiler",
+          "rules": {
+            "column_ranges_rule": {
+              "domain_builder": {
+                "class_name": "ColumnDomainBuilder",
+                "exclude_column_name_suffixes": null,
+                "exclude_column_names": null,
+                "exclude_semantic_types": null,
+                "include_column_name_suffixes": null,
+                "include_column_names": null,
+                "include_semantic_types": [
+                  "numeric"
+                ],
+                "module_name": "great_expectations.rule_based_profiler.domain_builder.column_domain_builder",
+                "semantic_type_filter_class_name": null,
+                "semantic_type_filter_module_name": null
+              },
+              "expectation_configuration_builders": [
+                {
+                  "class_name": "DefaultExpectationConfigurationBuilder",
+                  "column": "$domain.domain_kwargs.column",
+                  "condition": null,
+                  "expectation_type": "expect_column_min_to_be_between",
+                  "max_value": "$parameter.min_range.value[1]",
+                  "meta": {
+                    "profiler_details": "$parameter.min_range.details"
+                  },
+                  "min_value": "$parameter.min_range.value[0]",
+                  "module_name": "great_expectations.rule_based_profiler.expectation_configuration_builder.default_expectation_configuration_builder",
+                  "mostly": "$variables.mostly",
+                  "validation_parameter_builder_configs": null
+                },
+                {
+                  "class_name": "DefaultExpectationConfigurationBuilder",
+                  "column": "$domain.domain_kwargs.column",
+                  "condition": null,
+                  "expectation_type": "expect_column_max_to_be_between",
+                  "max_value": "$parameter.max_range.value[1]",
+                  "meta": {
+                    "profiler_details": "$parameter.max_range.details"
+                  },
+                  "min_value": "$parameter.max_range.value[0]",
+                  "module_name": "great_expectations.rule_based_profiler.expectation_configuration_builder.default_expectation_configuration_builder",
+                  "mostly": "$variables.mostly",
+                  "validation_parameter_builder_configs": null
+                },
+                {
+                  "class_name": "DefaultExpectationConfigurationBuilder",
+                  "column": "AccountID",
+                  "condition": null,
+                  "expectation_type": "expect_column_values_to_be_in_set",
+                  "meta": {
+                    "profiler_details": "$parameter.column_set.details"
+                  },
+                  "module_name": "great_expectations.rule_based_profiler.expectation_configuration_builder.default_expectation_configuration_builder",
+                  "mostly": "$variables.mostly",
+                  "validation_parameter_builder_configs": null,
+                  "value_set": "$parameter.column_set.value"
+                }
+              ],
+              "parameter_builders": [
+                {
+                  "bw_method": null,
+                  "class_name": "NumericMetricRangeMultiBatchParameterBuilder",
+                  "enforce_numeric_metric": true,
+                  "estimator": "bootstrap",
+                  "evaluation_parameter_builder_configs": null,
+                  "false_positive_rate": "$variables.false_positive_rate",
+                  "include_estimator_samples_histogram_in_details": false,
+                  "metric_domain_kwargs": "$domain.domain_kwargs",
+                  "metric_multi_batch_parameter_builder_name": null,
+                  "metric_name": "column.min",
+                  "metric_value_kwargs": null,
+                  "module_name": "great_expectations.rule_based_profiler.parameter_builder.numeric_metric_range_multi_batch_parameter_builder",
+                  "n_resamples": null,
+                  "name": "min_range",
+                  "quantile_bias_correction": false,
+                  "quantile_bias_std_error_ratio_threshold": null,
+                  "quantile_statistic_interpolation_method": "auto",
+                  "random_seed": null,
+                  "reduce_scalar_metric": true,
+                  "replace_nan_with_zero": true,
+                  "round_decimals": 2,
+                  "truncate_values": {
+                    "lower_bound": null,
+                    "upper_bound": null
+                  }
+                },
+                {
+                  "bw_method": null,
+                  "class_name": "NumericMetricRangeMultiBatchParameterBuilder",
+                  "enforce_numeric_metric": true,
+                  "estimator": "bootstrap",
+                  "evaluation_parameter_builder_configs": null,
+                  "false_positive_rate": "$variables.false_positive_rate",
+                  "include_estimator_samples_histogram_in_details": false,
+                  "metric_domain_kwargs": "$domain.domain_kwargs",
+                  "metric_multi_batch_parameter_builder_name": null,
+                  "metric_name": "column.max",
+                  "metric_value_kwargs": null,
+                  "module_name": "great_expectations.rule_based_profiler.parameter_builder.numeric_metric_range_multi_batch_parameter_builder",
+                  "n_resamples": null,
+                  "name": "max_range",
+                  "quantile_bias_correction": false,
+                  "quantile_bias_std_error_ratio_threshold": null,
+                  "quantile_statistic_interpolation_method": "auto",
+                  "random_seed": null,
+                  "reduce_scalar_metric": true,
+                  "replace_nan_with_zero": true,
+                  "round_decimals": 2,
+                  "truncate_values": {
+                    "lower_bound": null,
+                    "upper_bound": null
+                  }
+                },
+                {
+                  "class_name": "ValueSetMultiBatchParameterBuilder",
+                  "evaluation_parameter_builder_configs": null,
+                  "metric_domain_kwargs": {
+                    "column": "AccountID"
+                  },
+                  "metric_value_kwargs": null,
+                  "module_name": "great_expectations.rule_based_profiler.parameter_builder.value_set_multi_batch_parameter_builder",
+                  "name": "column_set"
+                }
+              ],
+              "variables": {}
+            },
+            "row_count_rule": {
+              "domain_builder": {
+                "class_name": "TableDomainBuilder",
+                "module_name": "great_expectations.rule_based_profiler.domain_builder.table_domain_builder"
+              },
+              "expectation_configuration_builders": [
+                {
+                  "class_name": "DefaultExpectationConfigurationBuilder",
+                  "condition": null,
+                  "expectation_type": "expect_table_row_count_to_be_between",
+                  "max_value": "$parameter.row_count_range.value[1]",
+                  "meta": {
+                    "profiler_details": "$parameter.row_count_range.details"
+                  },
+                  "min_value": "$parameter.row_count_range.value[0]",
+                  "module_name": "great_expectations.rule_based_profiler.expectation_configuration_builder.default_expectation_configuration_builder",
+                  "mostly": "$variables.mostly",
+                  "validation_parameter_builder_configs": null
+                }
+              ],
+              "parameter_builders": [
+                {
+                  "bw_method": null,
+                  "class_name": "NumericMetricRangeMultiBatchParameterBuilder",
+                  "enforce_numeric_metric": true,
+                  "estimator": "bootstrap",
+                  "evaluation_parameter_builder_configs": null,
+                  "false_positive_rate": "$variables.false_positive_rate",
+                  "include_estimator_samples_histogram_in_details": false,
+                  "metric_domain_kwargs": "$domain.domain_kwargs",
+                  "metric_multi_batch_parameter_builder_name": null,
+                  "metric_name": "table.row_count",
+                  "metric_value_kwargs": null,
+                  "module_name": "great_expectations.rule_based_profiler.parameter_builder.numeric_metric_range_multi_batch_parameter_builder",
+                  "n_resamples": null,
+                  "name": "row_count_range",
+                  "quantile_bias_correction": false,
+                  "quantile_bias_std_error_ratio_threshold": null,
+                  "quantile_statistic_interpolation_method": "auto",
+                  "random_seed": null,
+                  "reduce_scalar_metric": true,
+                  "replace_nan_with_zero": true,
+                  "round_decimals": 0,
+                  "truncate_values": {
+                    "lower_bound": 0
+                  }
+                }
+              ],
+              "variables": {}
+            }
+          },
+          "variables": {
+            "false_positive_rate": 0.01,
+            "mostly": 1.0
+          }
+        }
+      }
+    ],
+    "great_expectations_version": "0.15.50"
+  }
+}

@@ -1,0 +1,31 @@
+name: files_checkpoint
+config_version: 1.0
+template_name:
+module_name: great_expectations.checkpoint
+class_name: Checkpoint
+run_name_template: '%Y%m%d-%H%M%S-my-run-name-template'
+expectation_suite_name:
+batch_request: {}
+action_list:
+  - name: store_metrics
+    action:
+      class_name: StoreMetricsAction
+      target_store_name: metric_store
+      requested_metrics:
+        first_file:
+          - column:
+              AccountID:
+                - expect_column_distinct_values_to_contain_set.result.observed_value
+evaluation_parameters: {}
+runtime_configuration: {}
+validations:
+  - batch_request:
+      datasource_name: my_datasource
+      data_connector_name: default_inferred_data_connector_name
+      data_asset_name: Book1.csv
+      data_connector_query:
+        index: -1
+    expectation_suite_name: first_file
+profilers: []
+ge_cloud_id:
+expectation_suite_ge_cloud_id:

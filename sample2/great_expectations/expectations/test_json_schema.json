@@ -1,0 +1,4804 @@
+{
+  "data_asset_type": null,
+  "expectation_suite_name": "test_json_schema",
+  "expectations": [
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "clientProductNumber"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "clientProductNumber",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "NTEXT",
+          "NVARCHAR",
+          "STRING",
+          "StringType",
+          "StringType()",
+          "TEXT",
+          "VARCHAR",
+          "dtype('O')",
+          "object",
+          "str",
+          "string"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "clientProductNumber"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "clientProductName"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "clientProductName",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "NTEXT",
+          "NVARCHAR",
+          "STRING",
+          "StringType",
+          "StringType()",
+          "TEXT",
+          "VARCHAR",
+          "dtype('O')",
+          "object",
+          "str",
+          "string"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "clientProductName"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "clientProductGroup"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "clientProductGroup",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "NTEXT",
+          "NVARCHAR",
+          "STRING",
+          "StringType",
+          "StringType()",
+          "TEXT",
+          "VARCHAR",
+          "dtype('O')",
+          "object",
+          "str",
+          "string"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "clientProductGroup"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "supplierProductNumber"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "supplierProductNumber",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "NTEXT",
+          "NVARCHAR",
+          "STRING",
+          "StringType",
+          "StringType()",
+          "TEXT",
+          "VARCHAR",
+          "dtype('O')",
+          "object",
+          "str",
+          "string"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "supplierProductNumber"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "supplierProductName"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "supplierProductName",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "NTEXT",
+          "NVARCHAR",
+          "STRING",
+          "StringType",
+          "StringType()",
+          "TEXT",
+          "VARCHAR",
+          "dtype('O')",
+          "object",
+          "str",
+          "string"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "supplierProductName"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "supplierName"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "supplierName",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "NTEXT",
+          "NVARCHAR",
+          "STRING",
+          "StringType",
+          "StringType()",
+          "TEXT",
+          "VARCHAR",
+          "dtype('O')",
+          "object",
+          "str",
+          "string"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "supplierName"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "supplierBrand"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "supplierBrand",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "NTEXT",
+          "NVARCHAR",
+          "STRING",
+          "StringType",
+          "StringType()",
+          "TEXT",
+          "VARCHAR",
+          "dtype('O')",
+          "object",
+          "str",
+          "string"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "supplierBrand"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "dcProductNumber"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "dcProductNumber",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "NTEXT",
+          "NVARCHAR",
+          "STRING",
+          "StringType",
+          "StringType()",
+          "TEXT",
+          "VARCHAR",
+          "dtype('O')",
+          "object",
+          "str",
+          "string"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "dcProductNumber"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "dcProductName"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "dcProductName",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "NTEXT",
+          "NVARCHAR",
+          "STRING",
+          "StringType",
+          "StringType()",
+          "TEXT",
+          "VARCHAR",
+          "dtype('O')",
+          "object",
+          "str",
+          "string"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "dcProductName"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "tempAtSupplier"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "tempAtSupplier",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "NTEXT",
+          "NVARCHAR",
+          "STRING",
+          "StringType",
+          "StringType()",
+          "TEXT",
+          "VARCHAR",
+          "dtype('O')",
+          "object",
+          "str",
+          "string"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "tempAtSupplier"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "tempAtStorage"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "tempAtStorage",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "NTEXT",
+          "NVARCHAR",
+          "STRING",
+          "StringType",
+          "StringType()",
+          "TEXT",
+          "VARCHAR",
+          "dtype('O')",
+          "object",
+          "str",
+          "string"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "tempAtStorage"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "tempAtStore"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "tempAtStore",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "NTEXT",
+          "NVARCHAR",
+          "STRING",
+          "StringType",
+          "StringType()",
+          "TEXT",
+          "VARCHAR",
+          "dtype('O')",
+          "object",
+          "str",
+          "string"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "tempAtStore"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "tempAtTrans"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "tempAtTrans",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "NTEXT",
+          "NVARCHAR",
+          "STRING",
+          "StringType",
+          "StringType()",
+          "TEXT",
+          "VARCHAR",
+          "dtype('O')",
+          "object",
+          "str",
+          "string"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "tempAtTrans"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "minTempAtSupplier"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "minTempAtSupplier",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "NTEXT",
+          "NVARCHAR",
+          "STRING",
+          "StringType",
+          "StringType()",
+          "TEXT",
+          "VARCHAR",
+          "dtype('O')",
+          "object",
+          "str",
+          "string"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "minTempAtSupplier"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "maxTempAtSupplier"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "maxTempAtSupplier",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "NTEXT",
+          "NVARCHAR",
+          "STRING",
+          "StringType",
+          "StringType()",
+          "TEXT",
+          "VARCHAR",
+          "dtype('O')",
+          "object",
+          "str",
+          "string"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "maxTempAtSupplier"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "minTempAtStorage"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "minTempAtStorage",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "NTEXT",
+          "NVARCHAR",
+          "STRING",
+          "StringType",
+          "StringType()",
+          "TEXT",
+          "VARCHAR",
+          "dtype('O')",
+          "object",
+          "str",
+          "string"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "minTempAtStorage"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "maxTempAtStorage"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "maxTempAtStorage",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "NTEXT",
+          "NVARCHAR",
+          "STRING",
+          "StringType",
+          "StringType()",
+          "TEXT",
+          "VARCHAR",
+          "dtype('O')",
+          "object",
+          "str",
+          "string"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "maxTempAtStorage"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "minTempAtStore"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "minTempAtStore",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "NTEXT",
+          "NVARCHAR",
+          "STRING",
+          "StringType",
+          "StringType()",
+          "TEXT",
+          "VARCHAR",
+          "dtype('O')",
+          "object",
+          "str",
+          "string"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "minTempAtStore"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "maxTempAtStore"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "maxTempAtStore",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "NTEXT",
+          "NVARCHAR",
+          "STRING",
+          "StringType",
+          "StringType()",
+          "TEXT",
+          "VARCHAR",
+          "dtype('O')",
+          "object",
+          "str",
+          "string"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "maxTempAtStore"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "minTempAtTrans"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "minTempAtTrans",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "NTEXT",
+          "NVARCHAR",
+          "STRING",
+          "StringType",
+          "StringType()",
+          "TEXT",
+          "VARCHAR",
+          "dtype('O')",
+          "object",
+          "str",
+          "string"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "minTempAtTrans"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "maxTempAtTrans"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "maxTempAtTrans",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "NTEXT",
+          "NVARCHAR",
+          "STRING",
+          "StringType",
+          "StringType()",
+          "TEXT",
+          "VARCHAR",
+          "dtype('O')",
+          "object",
+          "str",
+          "string"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "maxTempAtTrans"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "caseQuantity"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "caseQuantity",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "NTEXT",
+          "NVARCHAR",
+          "STRING",
+          "StringType",
+          "StringType()",
+          "TEXT",
+          "VARCHAR",
+          "dtype('O')",
+          "object",
+          "str",
+          "string"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "caseQuantity"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "itemQuantity"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "itemQuantity",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "NTEXT",
+          "NVARCHAR",
+          "STRING",
+          "StringType",
+          "StringType()",
+          "TEXT",
+          "VARCHAR",
+          "dtype('O')",
+          "object",
+          "str",
+          "string"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "itemQuantity"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "itemUom"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "itemUom",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "NTEXT",
+          "NVARCHAR",
+          "STRING",
+          "StringType",
+          "StringType()",
+          "TEXT",
+          "VARCHAR",
+          "dtype('O')",
+          "object",
+          "str",
+          "string"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "itemUom"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "palletTi"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "palletTi",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "NTEXT",
+          "NVARCHAR",
+          "STRING",
+          "StringType",
+          "StringType()",
+          "TEXT",
+          "VARCHAR",
+          "dtype('O')",
+          "object",
+          "str",
+          "string"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "palletTi"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "palletHi"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "palletHi",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "NTEXT",
+          "NVARCHAR",
+          "STRING",
+          "StringType",
+          "StringType()",
+          "TEXT",
+          "VARCHAR",
+          "dtype('O')",
+          "object",
+          "str",
+          "string"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "palletHi"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "buyerName"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "buyerName",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "NTEXT",
+          "NVARCHAR",
+          "STRING",
+          "StringType",
+          "StringType()",
+          "TEXT",
+          "VARCHAR",
+          "dtype('O')",
+          "object",
+          "str",
+          "string"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "buyerName"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "productGroupName"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "productGroupName",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "NTEXT",
+          "NVARCHAR",
+          "STRING",
+          "StringType",
+          "StringType()",
+          "TEXT",
+          "VARCHAR",
+          "dtype('O')",
+          "object",
+          "str",
+          "string"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "productGroupName"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "supplierNumber"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "supplierNumber",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "NTEXT",
+          "NVARCHAR",
+          "STRING",
+          "StringType",
+          "StringType()",
+          "TEXT",
+          "VARCHAR",
+          "dtype('O')",
+          "object",
+          "str",
+          "string"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "supplierNumber"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "gtin"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "gtin",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "NTEXT",
+          "NVARCHAR",
+          "STRING",
+          "StringType",
+          "StringType()",
+          "TEXT",
+          "VARCHAR",
+          "dtype('O')",
+          "object",
+          "str",
+          "string"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "gtin"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "upc"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "upc",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "NTEXT",
+          "NVARCHAR",
+          "STRING",
+          "StringType",
+          "StringType()",
+          "TEXT",
+          "VARCHAR",
+          "dtype('O')",
+          "object",
+          "str",
+          "string"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "upc"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "proprietary"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "proprietary",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "NTEXT",
+          "NVARCHAR",
+          "STRING",
+          "StringType",
+          "StringType()",
+          "TEXT",
+          "VARCHAR",
+          "dtype('O')",
+          "object",
+          "str",
+          "string"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "proprietary"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "grossCasePack"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "grossCasePack",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "NTEXT",
+          "NVARCHAR",
+          "STRING",
+          "StringType",
+          "StringType()",
+          "TEXT",
+          "VARCHAR",
+          "dtype('O')",
+          "object",
+          "str",
+          "string"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "grossCasePack"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "subcaseQuantity"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "subcaseQuantity",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "NTEXT",
+          "NVARCHAR",
+          "STRING",
+          "StringType",
+          "StringType()",
+          "TEXT",
+          "VARCHAR",
+          "dtype('O')",
+          "object",
+          "str",
+          "string"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "subcaseQuantity"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "caseWidth"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "caseWidth",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "NTEXT",
+          "NVARCHAR",
+          "STRING",
+          "StringType",
+          "StringType()",
+          "TEXT",
+          "VARCHAR",
+          "dtype('O')",
+          "object",
+          "str",
+          "string"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "caseWidth"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "caseLength"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "caseLength",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "NTEXT",
+          "NVARCHAR",
+          "STRING",
+          "StringType",
+          "StringType()",
+          "TEXT",
+          "VARCHAR",
+          "dtype('O')",
+          "object",
+          "str",
+          "string"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "caseLength"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "caseHeight"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "caseHeight",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "NTEXT",
+          "NVARCHAR",
+          "STRING",
+          "StringType",
+          "StringType()",
+          "TEXT",
+          "VARCHAR",
+          "dtype('O')",
+          "object",
+          "str",
+          "string"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "caseHeight"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "floorLoaded"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "floorLoaded",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "NTEXT",
+          "NVARCHAR",
+          "STRING",
+          "StringType",
+          "StringType()",
+          "TEXT",
+          "VARCHAR",
+          "dtype('O')",
+          "object",
+          "str",
+          "string"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "floorLoaded"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "pallet"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "pallet",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "NTEXT",
+          "NVARCHAR",
+          "STRING",
+          "StringType",
+          "StringType()",
+          "TEXT",
+          "VARCHAR",
+          "dtype('O')",
+          "object",
+          "str",
+          "string"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "pallet"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "slipSheet"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "slipSheet",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "NTEXT",
+          "NVARCHAR",
+          "STRING",
+          "StringType",
+          "StringType()",
+          "TEXT",
+          "VARCHAR",
+          "dtype('O')",
+          "object",
+          "str",
+          "string"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "slipSheet"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "directStoreDelivery"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "directStoreDelivery",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "NTEXT",
+          "NVARCHAR",
+          "STRING",
+          "StringType",
+          "StringType()",
+          "TEXT",
+          "VARCHAR",
+          "dtype('O')",
+          "object",
+          "str",
+          "string"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "directStoreDelivery"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "mixedLotsOnPallet"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "mixedLotsOnPallet",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "NTEXT",
+          "NVARCHAR",
+          "STRING",
+          "StringType",
+          "StringType()",
+          "TEXT",
+          "VARCHAR",
+          "dtype('O')",
+          "object",
+          "str",
+          "string"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "mixedLotsOnPallet"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "stockingType"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "stockingType",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "NTEXT",
+          "NVARCHAR",
+          "STRING",
+          "StringType",
+          "StringType()",
+          "TEXT",
+          "VARCHAR",
+          "dtype('O')",
+          "object",
+          "str",
+          "string"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "stockingType"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "purchaseUom"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "purchaseUom",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "NTEXT",
+          "NVARCHAR",
+          "STRING",
+          "StringType",
+          "StringType()",
+          "TEXT",
+          "VARCHAR",
+          "dtype('O')",
+          "object",
+          "str",
+          "string"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "purchaseUom"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "purchasePriceUom"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "purchasePriceUom",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "NTEXT",
+          "NVARCHAR",
+          "STRING",
+          "StringType",
+          "StringType()",
+          "TEXT",
+          "VARCHAR",
+          "dtype('O')",
+          "object",
+          "str",
+          "string"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "purchasePriceUom"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "saleUom"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "saleUom",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "NTEXT",
+          "NVARCHAR",
+          "STRING",
+          "StringType",
+          "StringType()",
+          "TEXT",
+          "VARCHAR",
+          "dtype('O')",
+          "object",
+          "str",
+          "string"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "saleUom"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "salePriceUom"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "salePriceUom",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "NTEXT",
+          "NVARCHAR",
+          "STRING",
+          "StringType",
+          "StringType()",
+          "TEXT",
+          "VARCHAR",
+          "dtype('O')",
+          "object",
+          "str",
+          "string"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "salePriceUom"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "freightUom"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "freightUom",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "NTEXT",
+          "NVARCHAR",
+          "STRING",
+          "StringType",
+          "StringType()",
+          "TEXT",
+          "VARCHAR",
+          "dtype('O')",
+          "object",
+          "str",
+          "string"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "freightUom"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "caseGrossWeight"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "caseGrossWeight",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "NTEXT",
+          "NVARCHAR",
+          "STRING",
+          "StringType",
+          "StringType()",
+          "TEXT",
+          "VARCHAR",
+          "dtype('O')",
+          "object",
+          "str",
+          "string"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "caseGrossWeight"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "caseNetWeight"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "caseNetWeight",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "NTEXT",
+          "NVARCHAR",
+          "STRING",
+          "StringType",
+          "StringType()",
+          "TEXT",
+          "VARCHAR",
+          "dtype('O')",
+          "object",
+          "str",
+          "string"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "caseNetWeight"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "catchWeight"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "catchWeight",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "NTEXT",
+          "NVARCHAR",
+          "STRING",
+          "StringType",
+          "StringType()",
+          "TEXT",
+          "VARCHAR",
+          "dtype('O')",
+          "object",
+          "str",
+          "string"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "catchWeight"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "shelfLife"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "shelfLife",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "NTEXT",
+          "NVARCHAR",
+          "STRING",
+          "StringType",
+          "StringType()",
+          "TEXT",
+          "VARCHAR",
+          "dtype('O')",
+          "object",
+          "str",
+          "string"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "shelfLife"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "shelfLifeToDc"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "shelfLifeToDc",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "NTEXT",
+          "NVARCHAR",
+          "STRING",
+          "StringType",
+          "StringType()",
+          "TEXT",
+          "VARCHAR",
+          "dtype('O')",
+          "object",
+          "str",
+          "string"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "shelfLifeToDc"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "shelfLifeToStore"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "shelfLifeToStore",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "NTEXT",
+          "NVARCHAR",
+          "STRING",
+          "StringType",
+          "StringType()",
+          "TEXT",
+          "VARCHAR",
+          "dtype('O')",
+          "object",
+          "str",
+          "string"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "shelfLifeToStore"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "frontOfHouse"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "frontOfHouse",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "NTEXT",
+          "NVARCHAR",
+          "STRING",
+          "StringType",
+          "StringType()",
+          "TEXT",
+          "VARCHAR",
+          "dtype('O')",
+          "object",
+          "str",
+          "string"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "frontOfHouse"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "backOfHouse"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "backOfHouse",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "NTEXT",
+          "NVARCHAR",
+          "STRING",
+          "StringType",
+          "StringType()",
+          "TEXT",
+          "VARCHAR",
+          "dtype('O')",
+          "object",
+          "str",
+          "string"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "backOfHouse"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "shelfLifeOpened"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "shelfLifeOpened",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "NTEXT",
+          "NVARCHAR",
+          "STRING",
+          "StringType",
+          "StringType()",
+          "TEXT",
+          "VARCHAR",
+          "dtype('O')",
+          "object",
+          "str",
+          "string"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "shelfLifeOpened"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "storeRecievingUom"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "storeRecievingUom",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "NTEXT",
+          "NVARCHAR",
+          "STRING",
+          "StringType",
+          "StringType()",
+          "TEXT",
+          "VARCHAR",
+          "dtype('O')",
+          "object",
+          "str",
+          "string"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "storeRecievingUom"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "orderLeadTime"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "orderLeadTime",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "NTEXT",
+          "NVARCHAR",
+          "STRING",
+          "StringType",
+          "StringType()",
+          "TEXT",
+          "VARCHAR",
+          "dtype('O')",
+          "object",
+          "str",
+          "string"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "orderLeadTime"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "productLeadTime"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "productLeadTime",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "NTEXT",
+          "NVARCHAR",
+          "STRING",
+          "StringType",
+          "StringType()",
+          "TEXT",
+          "VARCHAR",
+          "dtype('O')",
+          "object",
+          "str",
+          "string"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "productLeadTime"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "productSafetyStock"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "productSafetyStock",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "NTEXT",
+          "NVARCHAR",
+          "STRING",
+          "StringType",
+          "StringType()",
+          "TEXT",
+          "VARCHAR",
+          "dtype('O')",
+          "object",
+          "str",
+          "string"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "productSafetyStock"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "storeLandedPrice"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "storeLandedPrice",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "NTEXT",
+          "NVARCHAR",
+          "STRING",
+          "StringType",
+          "StringType()",
+          "TEXT",
+          "VARCHAR",
+          "dtype('O')",
+          "object",
+          "str",
+          "string"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "storeLandedPrice"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "warehouseTotalMarkup"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "warehouseTotalMarkup",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "NTEXT",
+          "NVARCHAR",
+          "STRING",
+          "StringType",
+          "StringType()",
+          "TEXT",
+          "VARCHAR",
+          "dtype('O')",
+          "object",
+          "str",
+          "string"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "warehouseTotalMarkup"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "productLaneMoq"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "productLaneMoq",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "NTEXT",
+          "NVARCHAR",
+          "STRING",
+          "StringType",
+          "StringType()",
+          "TEXT",
+          "VARCHAR",
+          "dtype('O')",
+          "object",
+          "str",
+          "string"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "productLaneMoq"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "productLaneMaxOq"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "productLaneMaxOq",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "NTEXT",
+          "NVARCHAR",
+          "STRING",
+          "StringType",
+          "StringType()",
+          "TEXT",
+          "VARCHAR",
+          "dtype('O')",
+          "object",
+          "str",
+          "string"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "productLaneMaxOq"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "productLaneOqm"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "productLaneOqm",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "NTEXT",
+          "NVARCHAR",
+          "STRING",
+          "StringType",
+          "StringType()",
+          "TEXT",
+          "VARCHAR",
+          "dtype('O')",
+          "object",
+          "str",
+          "string"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "productLaneOqm"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "productLaneSafetyStock"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "productLaneSafetyStock",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "NTEXT",
+          "NVARCHAR",
+          "STRING",
+          "StringType",
+          "StringType()",
+          "TEXT",
+          "VARCHAR",
+          "dtype('O')",
+          "object",
+          "str",
+          "string"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "productLaneSafetyStock"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "productLaneMoqUomCd"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "productLaneMoqUomCd",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "NTEXT",
+          "NVARCHAR",
+          "STRING",
+          "StringType",
+          "StringType()",
+          "TEXT",
+          "VARCHAR",
+          "dtype('O')",
+          "object",
+          "str",
+          "string"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "productLaneMoqUomCd"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "suggestedSafetyStock"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "suggestedSafetyStock",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "NTEXT",
+          "NVARCHAR",
+          "STRING",
+          "StringType",
+          "StringType()",
+          "TEXT",
+          "VARCHAR",
+          "dtype('O')",
+          "object",
+          "str",
+          "string"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "suggestedSafetyStock"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "productApprovedDate"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "productApprovedDate",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "NTEXT",
+          "NVARCHAR",
+          "STRING",
+          "StringType",
+          "StringType()",
+          "TEXT",
+          "VARCHAR",
+          "dtype('O')",
+          "object",
+          "str",
+          "string"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "productApprovedDate"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "breakCaseLevelUom"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "breakCaseLevelUom",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "NTEXT",
+          "NVARCHAR",
+          "STRING",
+          "StringType",
+          "StringType()",
+          "TEXT",
+          "VARCHAR",
+          "dtype('O')",
+          "object",
+          "str",
+          "string"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "breakCaseLevelUom"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "glCode"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "glCode",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "NTEXT",
+          "NVARCHAR",
+          "STRING",
+          "StringType",
+          "StringType()",
+          "TEXT",
+          "VARCHAR",
+          "dtype('O')",
+          "object",
+          "str",
+          "string"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "glCode"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "glCodeDescription"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "glCodeDescription",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "NTEXT",
+          "NVARCHAR",
+          "STRING",
+          "StringType",
+          "StringType()",
+          "TEXT",
+          "VARCHAR",
+          "dtype('O')",
+          "object",
+          "str",
+          "string"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "glCodeDescription"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "billBackItem"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "billBackItem",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "NTEXT",
+          "NVARCHAR",
+          "STRING",
+          "StringType",
+          "StringType()",
+          "TEXT",
+          "VARCHAR",
+          "dtype('O')",
+          "object",
+          "str",
+          "string"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "billBackItem"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "billBackAmount"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "billBackAmount",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "NTEXT",
+          "NVARCHAR",
+          "STRING",
+          "StringType",
+          "StringType()",
+          "TEXT",
+          "VARCHAR",
+          "dtype('O')",
+          "object",
+          "str",
+          "string"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "billBackAmount"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "billBackComments"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "billBackComments",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "NTEXT",
+          "NVARCHAR",
+          "STRING",
+          "StringType",
+          "StringType()",
+          "TEXT",
+          "VARCHAR",
+          "dtype('O')",
+          "object",
+          "str",
+          "string"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "billBackComments"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "pricedOnDateOf"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "pricedOnDateOf",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "NTEXT",
+          "NVARCHAR",
+          "STRING",
+          "StringType",
+          "StringType()",
+          "TEXT",
+          "VARCHAR",
+          "dtype('O')",
+          "object",
+          "str",
+          "string"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "pricedOnDateOf"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "commodityClass"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "commodityClass",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "NTEXT",
+          "NVARCHAR",
+          "STRING",
+          "StringType",
+          "StringType()",
+          "TEXT",
+          "VARCHAR",
+          "dtype('O')",
+          "object",
+          "str",
+          "string"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "commodityClass"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "masterClientProductNumber"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "masterClientProductNumber",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "NTEXT",
+          "NVARCHAR",
+          "STRING",
+          "StringType",
+          "StringType()",
+          "TEXT",
+          "VARCHAR",
+          "dtype('O')",
+          "object",
+          "str",
+          "string"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "masterClientProductNumber"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "masterClientProductName"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "masterClientProductName",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "NTEXT",
+          "NVARCHAR",
+          "STRING",
+          "StringType",
+          "StringType()",
+          "TEXT",
+          "VARCHAR",
+          "dtype('O')",
+          "object",
+          "str",
+          "string"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "masterClientProductName"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "contractType"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "contractType",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "NTEXT",
+          "NVARCHAR",
+          "STRING",
+          "StringType",
+          "StringType()",
+          "TEXT",
+          "VARCHAR",
+          "dtype('O')",
+          "object",
+          "str",
+          "string"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "contractType"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "qaStatus"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "qaStatus",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "NTEXT",
+          "NVARCHAR",
+          "STRING",
+          "StringType",
+          "StringType()",
+          "TEXT",
+          "VARCHAR",
+          "dtype('O')",
+          "object",
+          "str",
+          "string"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "qaStatus"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "armadaProductNumber"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "armadaProductNumber",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "NTEXT",
+          "NVARCHAR",
+          "STRING",
+          "StringType",
+          "StringType()",
+          "TEXT",
+          "VARCHAR",
+          "dtype('O')",
+          "object",
+          "str",
+          "string"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "armadaProductNumber"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "originLocationNumber"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "originLocationNumber",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "NTEXT",
+          "NVARCHAR",
+          "STRING",
+          "StringType",
+          "StringType()",
+          "TEXT",
+          "VARCHAR",
+          "dtype('O')",
+          "object",
+          "str",
+          "string"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "originLocationNumber"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "oriinLocationName"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "oriinLocationName",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "NTEXT",
+          "NVARCHAR",
+          "STRING",
+          "StringType",
+          "StringType()",
+          "TEXT",
+          "VARCHAR",
+          "dtype('O')",
+          "object",
+          "str",
+          "string"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "oriinLocationName"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "originLocationTypeCd"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "originLocationTypeCd",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "NTEXT",
+          "NVARCHAR",
+          "STRING",
+          "StringType",
+          "StringType()",
+          "TEXT",
+          "VARCHAR",
+          "dtype('O')",
+          "object",
+          "str",
+          "string"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "originLocationTypeCd"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "destinationLocationNumber"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "destinationLocationNumber",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "NTEXT",
+          "NVARCHAR",
+          "STRING",
+          "StringType",
+          "StringType()",
+          "TEXT",
+          "VARCHAR",
+          "dtype('O')",
+          "object",
+          "str",
+          "string"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "destinationLocationNumber"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "destinationLocationName"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "destinationLocationName",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "NTEXT",
+          "NVARCHAR",
+          "STRING",
+          "StringType",
+          "StringType()",
+          "TEXT",
+          "VARCHAR",
+          "dtype('O')",
+          "object",
+          "str",
+          "string"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "destinationLocationName"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "destinationLocationTypeCd"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "destinationLocationTypeCd",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "NTEXT",
+          "NVARCHAR",
+          "STRING",
+          "StringType",
+          "StringType()",
+          "TEXT",
+          "VARCHAR",
+          "dtype('O')",
+          "object",
+          "str",
+          "string"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "destinationLocationTypeCd"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "effectiveDate"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "effectiveDate",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "NTEXT",
+          "NVARCHAR",
+          "STRING",
+          "StringType",
+          "StringType()",
+          "TEXT",
+          "VARCHAR",
+          "dtype('O')",
+          "object",
+          "str",
+          "string"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "effectiveDate"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "expirationDate"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "expirationDate",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "NTEXT",
+          "NVARCHAR",
+          "STRING",
+          "StringType",
+          "StringType()",
+          "TEXT",
+          "VARCHAR",
+          "dtype('O')",
+          "object",
+          "str",
+          "string"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "expirationDate"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "pricePickup"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "pricePickup",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "NTEXT",
+          "NVARCHAR",
+          "STRING",
+          "StringType",
+          "StringType()",
+          "TEXT",
+          "VARCHAR",
+          "dtype('O')",
+          "object",
+          "str",
+          "string"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "pricePickup"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "priceBillback"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "priceBillback",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "NTEXT",
+          "NVARCHAR",
+          "STRING",
+          "StringType",
+          "StringType()",
+          "TEXT",
+          "VARCHAR",
+          "dtype('O')",
+          "object",
+          "str",
+          "string"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "priceBillback"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "priceSupplierfreight"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "priceSupplierfreight",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "NTEXT",
+          "NVARCHAR",
+          "STRING",
+          "StringType",
+          "StringType()",
+          "TEXT",
+          "VARCHAR",
+          "dtype('O')",
+          "object",
+          "str",
+          "string"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "priceSupplierfreight"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "priceDelivered"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "priceDelivered",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "NTEXT",
+          "NVARCHAR",
+          "STRING",
+          "StringType",
+          "StringType()",
+          "TEXT",
+          "VARCHAR",
+          "dtype('O')",
+          "object",
+          "str",
+          "string"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "priceDelivered"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "priceTransfer"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "priceTransfer",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "NTEXT",
+          "NVARCHAR",
+          "STRING",
+          "StringType",
+          "StringType()",
+          "TEXT",
+          "VARCHAR",
+          "dtype('O')",
+          "object",
+          "str",
+          "string"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "priceTransfer"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "priceStor"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "priceStor",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "NTEXT",
+          "NVARCHAR",
+          "STRING",
+          "StringType",
+          "StringType()",
+          "TEXT",
+          "VARCHAR",
+          "dtype('O')",
+          "object",
+          "str",
+          "string"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "priceStor"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "priceAmort"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "priceAmort",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "NTEXT",
+          "NVARCHAR",
+          "STRING",
+          "StringType",
+          "StringType()",
+          "TEXT",
+          "VARCHAR",
+          "dtype('O')",
+          "object",
+          "str",
+          "string"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "priceAmort"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "priceFreight"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "priceFreight",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "NTEXT",
+          "NVARCHAR",
+          "STRING",
+          "StringType",
+          "StringType()",
+          "TEXT",
+          "VARCHAR",
+          "dtype('O')",
+          "object",
+          "str",
+          "string"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "priceFreight"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "priceHand"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "priceHand",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "NTEXT",
+          "NVARCHAR",
+          "STRING",
+          "StringType",
+          "StringType()",
+          "TEXT",
+          "VARCHAR",
+          "dtype('O')",
+          "object",
+          "str",
+          "string"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "priceHand"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "priceAdjmu"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "priceAdjmu",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "NTEXT",
+          "NVARCHAR",
+          "STRING",
+          "StringType",
+          "StringType()",
+          "TEXT",
+          "VARCHAR",
+          "dtype('O')",
+          "object",
+          "str",
+          "string"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "priceAdjmu"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "priceDclanded"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "priceDclanded",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "NTEXT",
+          "NVARCHAR",
+          "STRING",
+          "StringType",
+          "StringType()",
+          "TEXT",
+          "VARCHAR",
+          "dtype('O')",
+          "object",
+          "str",
+          "string"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "priceDclanded"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "priceFob"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "priceFob",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "NTEXT",
+          "NVARCHAR",
+          "STRING",
+          "StringType",
+          "StringType()",
+          "TEXT",
+          "VARCHAR",
+          "dtype('O')",
+          "object",
+          "str",
+          "string"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "priceFob"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "pricePalletcharge"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "pricePalletcharge",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "NTEXT",
+          "NVARCHAR",
+          "STRING",
+          "StringType",
+          "StringType()",
+          "TEXT",
+          "VARCHAR",
+          "dtype('O')",
+          "object",
+          "str",
+          "string"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "pricePalletcharge"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "pricePdpalletcharge"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "pricePdpalletcharge",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "NTEXT",
+          "NVARCHAR",
+          "STRING",
+          "StringType",
+          "StringType()",
+          "TEXT",
+          "VARCHAR",
+          "dtype('O')",
+          "object",
+          "str",
+          "string"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "pricePdpalletcharge"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "pricePdstor"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "pricePdstor",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "NTEXT",
+          "NVARCHAR",
+          "STRING",
+          "StringType",
+          "StringType()",
+          "TEXT",
+          "VARCHAR",
+          "dtype('O')",
+          "object",
+          "str",
+          "string"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "pricePdstor"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "pricePdhand"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "pricePdhand",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "NTEXT",
+          "NVARCHAR",
+          "STRING",
+          "StringType",
+          "StringType()",
+          "TEXT",
+          "VARCHAR",
+          "dtype('O')",
+          "object",
+          "str",
+          "string"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "pricePdhand"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "priceAllowance"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "priceAllowance",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "NTEXT",
+          "NVARCHAR",
+          "STRING",
+          "StringType",
+          "StringType()",
+          "TEXT",
+          "VARCHAR",
+          "dtype('O')",
+          "object",
+          "str",
+          "string"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "priceAllowance"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "priceDisc"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "priceDisc",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "NTEXT",
+          "NVARCHAR",
+          "STRING",
+          "StringType",
+          "StringType()",
+          "TEXT",
+          "VARCHAR",
+          "dtype('O')",
+          "object",
+          "str",
+          "string"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "priceDisc"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "priceCustom1"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "priceCustom1",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "NTEXT",
+          "NVARCHAR",
+          "STRING",
+          "StringType",
+          "StringType()",
+          "TEXT",
+          "VARCHAR",
+          "dtype('O')",
+          "object",
+          "str",
+          "string"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "priceCustom1"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "priceCustom2"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "priceCustom2",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "NTEXT",
+          "NVARCHAR",
+          "STRING",
+          "StringType",
+          "StringType()",
+          "TEXT",
+          "VARCHAR",
+          "dtype('O')",
+          "object",
+          "str",
+          "string"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "priceCustom2"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "priceCustom3"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "priceCustom3",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "NTEXT",
+          "NVARCHAR",
+          "STRING",
+          "StringType",
+          "StringType()",
+          "TEXT",
+          "VARCHAR",
+          "dtype('O')",
+          "object",
+          "str",
+          "string"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "priceCustom3"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "priceCustom4"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "priceCustom4",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "NTEXT",
+          "NVARCHAR",
+          "STRING",
+          "StringType",
+          "StringType()",
+          "TEXT",
+          "VARCHAR",
+          "dtype('O')",
+          "object",
+          "str",
+          "string"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "priceCustom4"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "priceCustom5"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "priceCustom5",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "NTEXT",
+          "NVARCHAR",
+          "STRING",
+          "StringType",
+          "StringType()",
+          "TEXT",
+          "VARCHAR",
+          "dtype('O')",
+          "object",
+          "str",
+          "string"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "priceCustom5"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "priceCustom6"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "priceCustom6",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "NTEXT",
+          "NVARCHAR",
+          "STRING",
+          "StringType",
+          "StringType()",
+          "TEXT",
+          "VARCHAR",
+          "dtype('O')",
+          "object",
+          "str",
+          "string"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "priceCustom6"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "priceCustom7"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "priceCustom7",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "NTEXT",
+          "NVARCHAR",
+          "STRING",
+          "StringType",
+          "StringType()",
+          "TEXT",
+          "VARCHAR",
+          "dtype('O')",
+          "object",
+          "str",
+          "string"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "priceCustom7"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "priceCustom8"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "priceCustom8",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "NTEXT",
+          "NVARCHAR",
+          "STRING",
+          "StringType",
+          "StringType()",
+          "TEXT",
+          "VARCHAR",
+          "dtype('O')",
+          "object",
+          "str",
+          "string"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "priceCustom8"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "priceCustom9"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "priceCustom9",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "NTEXT",
+          "NVARCHAR",
+          "STRING",
+          "StringType",
+          "StringType()",
+          "TEXT",
+          "VARCHAR",
+          "dtype('O')",
+          "object",
+          "str",
+          "string"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "priceCustom9"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "priceCustom10"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "priceCustom10",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "NTEXT",
+          "NVARCHAR",
+          "STRING",
+          "StringType",
+          "StringType()",
+          "TEXT",
+          "VARCHAR",
+          "dtype('O')",
+          "object",
+          "str",
+          "string"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "priceCustom10"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "purchaseUomCd"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "purchaseUomCd",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "NTEXT",
+          "NVARCHAR",
+          "STRING",
+          "StringType",
+          "StringType()",
+          "TEXT",
+          "VARCHAR",
+          "dtype('O')",
+          "object",
+          "str",
+          "string"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "purchaseUomCd"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "purchasePriceUomCd"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "purchasePriceUomCd",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "NTEXT",
+          "NVARCHAR",
+          "STRING",
+          "StringType",
+          "StringType()",
+          "TEXT",
+          "VARCHAR",
+          "dtype('O')",
+          "object",
+          "str",
+          "string"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "purchasePriceUomCd"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "saleUomCd"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "saleUomCd",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "NTEXT",
+          "NVARCHAR",
+          "STRING",
+          "StringType",
+          "StringType()",
+          "TEXT",
+          "VARCHAR",
+          "dtype('O')",
+          "object",
+          "str",
+          "string"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "saleUomCd"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "salePriceUomCd"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "salePriceUomCd",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "NTEXT",
+          "NVARCHAR",
+          "STRING",
+          "StringType",
+          "StringType()",
+          "TEXT",
+          "VARCHAR",
+          "dtype('O')",
+          "object",
+          "str",
+          "string"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "salePriceUomCd"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "freightUomCd"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "freightUomCd",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "NTEXT",
+          "NVARCHAR",
+          "STRING",
+          "StringType",
+          "StringType()",
+          "TEXT",
+          "VARCHAR",
+          "dtype('O')",
+          "object",
+          "str",
+          "string"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "freightUomCd"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "storeReceivingUomCd"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "storeReceivingUomCd",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "NTEXT",
+          "NVARCHAR",
+          "STRING",
+          "StringType",
+          "StringType()",
+          "TEXT",
+          "VARCHAR",
+          "dtype('O')",
+          "object",
+          "str",
+          "string"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "storeReceivingUomCd"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "breakCaseLevelUomCd"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "breakCaseLevelUomCd",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "NTEXT",
+          "NVARCHAR",
+          "STRING",
+          "StringType",
+          "StringType()",
+          "TEXT",
+          "VARCHAR",
+          "dtype('O')",
+          "object",
+          "str",
+          "string"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "breakCaseLevelUomCd"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "itemUomCd"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "itemUomCd",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "NTEXT",
+          "NVARCHAR",
+          "STRING",
+          "StringType",
+          "StringType()",
+          "TEXT",
+          "VARCHAR",
+          "dtype('O')",
+          "object",
+          "str",
+          "string"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "itemUomCd"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "palletExchange"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "palletExchange",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "NTEXT",
+          "NVARCHAR",
+          "STRING",
+          "StringType",
+          "StringType()",
+          "TEXT",
+          "VARCHAR",
+          "dtype('O')",
+          "object",
+          "str",
+          "string"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "palletExchange"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "countryOfOrigin"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "countryOfOrigin",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "NTEXT",
+          "NVARCHAR",
+          "STRING",
+          "StringType",
+          "StringType()",
+          "TEXT",
+          "VARCHAR",
+          "dtype('O')",
+          "object",
+          "str",
+          "string"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "countryOfOrigin"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "totalItemQuantity"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "totalItemQuantity",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "NTEXT",
+          "NVARCHAR",
+          "STRING",
+          "StringType",
+          "StringType()",
+          "TEXT",
+          "VARCHAR",
+          "dtype('O')",
+          "object",
+          "str",
+          "string"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "totalItemQuantity"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "casesPerPallet"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "casesPerPallet",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "NTEXT",
+          "NVARCHAR",
+          "STRING",
+          "StringType",
+          "StringType()",
+          "TEXT",
+          "VARCHAR",
+          "dtype('O')",
+          "object",
+          "str",
+          "string"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "casesPerPallet"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "concept"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "concept",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "NTEXT",
+          "NVARCHAR",
+          "STRING",
+          "StringType",
+          "StringType()",
+          "TEXT",
+          "VARCHAR",
+          "dtype('O')",
+          "object",
+          "str",
+          "string"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "concept"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "countryOfOriginLabel"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_type_list",
+      "kwargs": {
+        "column": "countryOfOriginLabel",
+        "type_list": [
+          "CHAR",
+          "NCHAR",
+          "NTEXT",
+          "NVARCHAR",
+          "STRING",
+          "StringType",
+          "StringType()",
+          "TEXT",
+          "VARCHAR",
+          "dtype('O')",
+          "object",
+          "str",
+          "string"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "countryOfOriginLabel"
+      },
+      "meta": {}
+    }
+  ],
+  "ge_cloud_id": null,
+  "meta": {
+    "citations": [
+      {
+        "citation_date": "2022-10-04T13:01:51.980831Z",
+        "comment": "This suite was built by the JsonSchemaProfiler"
+      }
+    ],
+    "great_expectations_version": "0.15.26"
+  }
+}
