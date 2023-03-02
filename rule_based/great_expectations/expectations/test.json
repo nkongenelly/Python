@@ -128,13 +128,38 @@
           "num_batches": 1
         }
       }
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_in_set",
+      "kwargs": {
+        "column": "AccountID",
+        "mostly": 1.0,
+        "value_set": [
+          "RE233",
+          "ABC",
+          "98DSS"
+        ]
+      },
+      "meta": {
+        "profiler_details": {
+          "metric_configuration": {
+            "domain_kwargs": {
+              "column": "AccountID"
+            },
+            "metric_name": "column.distinct_values",
+            "metric_value_kwargs": null
+          },
+          "num_batches": 1,
+          "parse_strings_as_datetimes": false
+        }
+      }
     }
   ],
   "ge_cloud_id": null,
   "meta": {
     "citations": [
       {
-        "citation_date": "2023-03-02T15:45:19.033388Z",
+        "citation_date": "2023-03-02T16:21:47.054552Z",
         "comment": "Created by Rule-Based Profiler with the configuration included.",
         "profiler_config": {
           "config_version": 1.0,
